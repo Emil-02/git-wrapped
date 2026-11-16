@@ -1,0 +1,30 @@
+name: 🧩 New personality idea
+description: Suggest a new vibe, badge, or language nickname
+labels: ["personality", "good first issue"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name and emoji
+      placeholder: "🎲 Friday Deployer"
+    validations:
+      required: true
+  - type: textarea
+    id: rule
+    attributes:
+      label: When should it trigger?
+      description: Describe the rule in terms of stats (streaks, hours, weekdays, languages, PRs, reviews…)
+      placeholder: "At least 30% of contributions happen on Fridays."
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description shown on the card
+      placeholder: "Living dangerously, one Friday merge at a time."
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to open a PR for this myself
