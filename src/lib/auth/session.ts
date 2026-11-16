@@ -7,7 +7,8 @@ import "server-only";
 
 export const SESSION_COOKIE = "gw_session";
 export const STATE_COOKIE = "gw_oauth_state";
-export const SESSION_MAX_AGE = 60 * 60 * 24; // 1 day
+// Matches GitHub's lifetime for expiring user access tokens.
+export const SESSION_MAX_AGE = 60 * 60 * 8;
 
 export interface Session {
   token: string;

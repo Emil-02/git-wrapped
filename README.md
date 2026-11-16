@@ -6,7 +6,7 @@
 
 Your contributions, streaks, languages, coding hours, and the developer personality you didn't know you had. All of it as Stories-style slides you can share.
 
-[**Get your wrapped →**](https://github.com/Emil-02/git-wrapped) · [Add a personality](#-add-your-own-personality) · [Self-host](#-self-hosting)
+[**Get your wrapped →**](https://git-wrapped-zeta.vercel.app) · [Add a personality](#-add-your-own-personality) · [Self-host](#-self-hosting)
 
 <img src="docs/og-example.png" alt="Example git-wrapped share card: Night Owl Polyglot" width="720" />
 
@@ -109,7 +109,7 @@ src/
 ## 🔒 Privacy
 
 - Public mode only reads data that is already public on GitHub.
-- In private mode, your token is stored only in an AES-GCM encrypted, httpOnly cookie that expires after 24 hours. It is never written to a database or log. Private wrapped data is never cached on the server.
+- In private mode, your token is stored only in an AES-GCM encrypted, httpOnly cookie that expires after 8 hours. It is never written to a database or log. Private wrapped data is never cached on the server.
 - Private repository names are replaced with "Private repository" everywhere they could be shared.
 
 ## 📄 License
